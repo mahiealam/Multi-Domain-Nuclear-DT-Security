@@ -1,0 +1,10 @@
+dataset,split,X_batch_shape,y_batch_shape,expected_input_shape
+HAI,train,"(256, 10, 335)","(256,)","(batch, time_steps, features)"
+HAI,validation,"(256, 10, 335)","(256,)","(batch, time_steps, features)"
+HAI,test,"(256, 10, 335)","(256,)","(batch, time_steps, features)"
+SWAT,train,"(256, 10, 51)","(256,)","(batch, time_steps, features)"
+SWAT,validation,"(256, 10, 51)","(256,)","(batch, time_steps, features)"
+SWAT,test,"(256, 10, 51)","(256,)","(batch, time_steps, features)"
+WUSTL_IIOT,train,"(256, 10, 41)","(256,)","(batch, time_steps, features)"
+WUSTL_IIOT,validation,"(256, 10, 41)","(256,)","(batch, time_steps, features)"
+WUSTL_IIOT,test,"(256, 10, 41)","(256,)","(batch, time_steps, features)"

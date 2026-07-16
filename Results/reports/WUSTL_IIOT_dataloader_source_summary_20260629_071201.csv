@@ -1,0 +1,4 @@
+dataset,split,source_file,windows,normal_windows,attack_windows
+WUSTL_IIOT,train,wustl_iiot_2021.csv::normal_train_split,620164,620164,0
+WUSTL_IIOT,validation,wustl_iiot_2021.csv::normal_train_split,155040,155040,0
+WUSTL_IIOT,test,wustl_iiot_2021.csv::holdout_test_split,419242,332226,87016

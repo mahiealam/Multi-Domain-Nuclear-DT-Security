@@ -1,0 +1,4 @@
+dataset,split_mode,train_path,test_path,label_col,time_col,preview_rows,preview_columns,numeric_columns_preview,status
+HAI,auto_train_test,/workspace/notebooks/WP31/Datasets/HAI/haiend-23.05/end-train2.csv,/workspace/notebooks/WP31/Datasets/HAI/haiend-23.05/end-test2.csv,,Timestamp,1000,226,225,ok
+SWAT,auto_train_test,/workspace/notebooks/WP31/Datasets/SWAT/normal.csv,/workspace/notebooks/WP31/Datasets/SWAT/attack.csv,Normal/Attack,Timestamp,1000,53,51,ok
+WUSTL_IIOT,single_file_labeled_split,/workspace/notebooks/WP31/Datasets/wustl_iiot/wustl_iiot_2021.csv,/workspace/notebooks/WP31/Datasets/wustl_iiot/wustl_iiot_2021.csv,Target,StartTime,1000,49,44,ok

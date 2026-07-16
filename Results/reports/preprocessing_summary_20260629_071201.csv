@@ -1,0 +1,4 @@
+dataset,split_mode,train_segments,test_segments,train_rows,test_rows,feature_count,label_col,time_col,train_normal_rows,train_attack_rows,test_normal_rows,test_attack_rows
+HAI,auto_multi_file_train_test,19,19,4269605,2345405,335,attack,time,4269605,0,2336458,8947
+SWAT,swat_normal_train_merged_or_attack_test,1,1,1387098,1441719,51,Normal/Attack,Timestamp,1387098,0,1387098,54621
+WUSTL_IIOT,single_file_labeled_split,1,1,775213,419251,41,Target,StartTime,775213,0,332235,87016

@@ -1,0 +1,4 @@
+dataset,input_shape,latent_shape,output_shape,shape_contract_passed
+HAI,"(256, 10, 335)","(256, 16)","(256, 10, 335)",True
+SWAT,"(256, 10, 51)","(256, 16)","(256, 10, 51)",True
+WUSTL_IIOT,"(256, 10, 41)","(256, 16)","(256, 10, 41)",True

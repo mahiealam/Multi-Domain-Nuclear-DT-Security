@@ -1,0 +1,2 @@
+file_path,file_name,rows,columns,missing_before_cleaning,missing_after_cleaning,split
+/workspace/notebooks/WP31/Datasets/wustl_iiot/wustl_iiot_2021.csv,wustl_iiot_2021.csv,1194464,49,0,0,single_file

@@ -1,0 +1,4 @@
+dataset,split,source_file,windows,normal_windows,attack_windows
+SWAT,train,normal.csv,1109672,1109672,0
+SWAT,validation,normal.csv,277417,277417,0
+SWAT,test,merged.csv,1441710,1386774,54936

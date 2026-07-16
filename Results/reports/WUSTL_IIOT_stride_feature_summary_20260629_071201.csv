@@ -1,0 +1,4 @@
+dataset,top_feature,top_feature_index,anomaly_count,mean_top_feature_error,stride_category
+WUSTL_IIOT,TotAppByte,35,1112,101418383.89928058,Tampering
+WUSTL_IIOT,SrcLoad,7,938,104893.72366404584,Spoofing
+WUSTL_IIOT,TotBytes,6,441,30841091.41478883,Denial of Service

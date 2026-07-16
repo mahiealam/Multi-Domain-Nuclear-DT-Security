@@ -1,0 +1,4 @@
+dataset,checkpoint_path,threshold,input_shape,output_shape,shape_ok
+HAI,/workspace/notebooks/WP31/Results/checkpoints/HAI_lstm_autoencoder_best_20260629_071201.pt,0.014070019125938416,"(256, 10, 335)","(256, 10, 335)",True
+SWAT,/workspace/notebooks/WP31/Results/checkpoints/SWAT_lstm_autoencoder_best_20260629_071201.pt,0.033685870468616486,"(256, 10, 51)","(256, 10, 51)",True
+WUSTL_IIOT,/workspace/notebooks/WP31/Results/checkpoints/WUSTL_IIOT_lstm_autoencoder_best_20260629_071201.pt,8355.1181640625,"(256, 10, 41)","(256, 10, 41)",True

@@ -1,0 +1,4 @@
+dataset,input_dim,time_steps,hidden_dim,latent_dim,num_lstm_layers,trainable_parameters
+HAI,335,10,32,16,1,67807
+SWAT,51,10,32,16,1,22083
+WUSTL_IIOT,41,10,32,16,1,20473

@@ -1,0 +1,4 @@
+dataset,input_dim,time_steps,batch_size,train_windows,validation_windows,test_windows,train_normal_windows,train_attack_windows,validation_normal_windows,validation_attack_windows,test_normal_windows,test_attack_windows
+HAI,335,10,256,3415552,853882,2345234,3415552,0,853882,0,2335837,9397
+SWAT,51,10,256,1109672,277417,1441710,1109672,0,277417,0,1386774,54936
+WUSTL_IIOT,41,10,256,620164,155040,419242,620164,0,155040,0,332226,87016

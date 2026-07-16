@@ -1,0 +1,13 @@
+dataset,split,label,count
+HAI,train,Normal,4269605
+HAI,train,Attack,0
+HAI,test,Normal,2336458
+HAI,test,Attack,8947
+SWAT,train,Normal,1387098
+SWAT,train,Attack,0
+SWAT,test,Normal,1387098
+SWAT,test,Attack,54621
+WUSTL_IIOT,train,Normal,775213
+WUSTL_IIOT,train,Attack,0
+WUSTL_IIOT,test,Normal,332235
+WUSTL_IIOT,test,Attack,87016

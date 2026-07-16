@@ -1,0 +1,3 @@
+file_path,file_name,rows,columns,missing_before_cleaning,missing_after_cleaning,split
+/workspace/notebooks/WP31/Datasets/SWAT/normal.csv,normal.csv,1387098,53,6942600,0,train
+/workspace/notebooks/WP31/Datasets/SWAT/merged.csv,merged.csv,1441719,53,6942600,0,test
