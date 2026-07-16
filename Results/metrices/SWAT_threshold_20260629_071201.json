@@ -1,0 +1,5 @@
+{
+    "dataset": "SWAT",
+    "threshold_percentile": 99.5,
+    "threshold": 0.033685870468616486
+}

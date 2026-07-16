@@ -1,0 +1,4 @@
+dataset,epochs_ran,best_epoch,best_validation_loss,final_train_loss,final_validation_loss,checkpoint_path,history_path
+HAI,18,10,0.000462917853523822,0.0004673113255463711,0.0004683705708520553,/workspace/notebooks/WP31/Results/checkpoints/HAI_lstm_autoencoder_best_20260629_071201.pt,/workspace/notebooks/WP31/Results/logs/HAI_training_history_20260629_071201.csv
+SWAT,50,42,0.00033439765081409565,0.000342089261452391,0.0003402764227455484,/workspace/notebooks/WP31/Results/checkpoints/SWAT_lstm_autoencoder_best_20260629_071201.pt,/workspace/notebooks/WP31/Results/logs/SWAT_training_history_20260629_071201.csv
+WUSTL_IIOT,50,50,70996078897127.95,72499282213639.34,70996078897127.95,/workspace/notebooks/WP31/Results/checkpoints/WUSTL_IIOT_lstm_autoencoder_best_20260629_071201.pt,/workspace/notebooks/WP31/Results/logs/WUSTL_IIOT_training_history_20260629_071201.csv

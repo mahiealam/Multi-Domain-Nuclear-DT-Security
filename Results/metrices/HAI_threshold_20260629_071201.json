@@ -1,0 +1,5 @@
+{
+    "dataset": "HAI",
+    "threshold_percentile": 99.5,
+    "threshold": 0.014070019125938416
+}

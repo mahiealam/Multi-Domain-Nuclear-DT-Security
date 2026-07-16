@@ -1,0 +1,15 @@
+{
+    "dataset": "SWAT",
+    "threshold_percentile": 99.5,
+    "threshold": 0.033685870468616486,
+    "train_windows_used_for_threshold": 1109672,
+    "test_windows": 1441710,
+    "test_normal_windows": 1386774,
+    "test_attack_windows": 54936,
+    "accuracy": 0.9829702228603533,
+    "precision": 0.8462327362231642,
+    "recall": 0.6758955875928353,
+    "f1_score": 0.7515331835569858,
+    "roc_auc": 0.9482085531989003,
+    "pr_auc": 0.7809279961678367
+}

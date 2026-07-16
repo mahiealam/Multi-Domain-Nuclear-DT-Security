@@ -1,0 +1,15 @@
+{
+    "dataset": "HAI",
+    "threshold_percentile": 99.5,
+    "threshold": 0.014070019125938416,
+    "train_windows_used_for_threshold": 3415552,
+    "test_windows": 2345234,
+    "test_normal_windows": 2335837,
+    "test_attack_windows": 9397,
+    "accuracy": 0.9905152321687303,
+    "precision": 0.20832765744903056,
+    "recall": 0.48824092795573054,
+    "f1_score": 0.2920432845321451,
+    "roc_auc": 0.9442262111293022,
+    "pr_auc": 0.18634050845074335
+}

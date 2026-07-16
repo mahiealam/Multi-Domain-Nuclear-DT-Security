@@ -1,0 +1,5 @@
+{
+    "dataset": "WUSTL_IIOT",
+    "threshold_percentile": 99.5,
+    "threshold": 8355.1181640625
+}

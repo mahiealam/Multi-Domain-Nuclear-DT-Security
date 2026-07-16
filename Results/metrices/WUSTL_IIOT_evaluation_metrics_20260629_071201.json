@@ -1,0 +1,15 @@
+{
+    "dataset": "WUSTL_IIOT",
+    "threshold_percentile": 99.5,
+    "threshold": 8355.1181640625,
+    "train_windows_used_for_threshold": 620164,
+    "test_windows": 419242,
+    "test_normal_windows": 332226,
+    "test_attack_windows": 87016,
+    "accuracy": 0.7928523382676353,
+    "precision": 0.5343235648334003,
+    "recall": 0.015296037510342926,
+    "f1_score": 0.029740690672237925,
+    "roc_auc": 0.9858216998385599,
+    "pr_auc": 0.9056298300682941
+}
