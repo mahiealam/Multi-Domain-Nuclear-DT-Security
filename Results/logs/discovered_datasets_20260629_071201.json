@@ -1,0 +1,266 @@
+{
+    "HAI": {
+        "dataset_dir": "/workspace/notebooks/WP31/Datasets/HAI",
+        "train_path": "/workspace/notebooks/WP31/Datasets/HAI/haiend-23.05/end-train2.csv",
+        "test_path": "/workspace/notebooks/WP31/Datasets/HAI/haiend-23.05/end-test2.csv",
+        "label_col": null,
+        "time_col": "Timestamp",
+        "drop_cols": [],
+        "normal_label": 0,
+        "file_glob": [
+            "*.csv",
+            "*.CSV",
+            "*.xlsx",
+            "*.xls"
+        ],
+        "train_name_hints": [
+            "train",
+            "normal"
+        ],
+        "test_name_hints": [
+            "test",
+            "attack",
+            "validation"
+        ],
+        "stride_feature_keywords": {
+            "Tampering": [
+                "sensor",
+                "pressure",
+                "level",
+                "flow",
+                "valve",
+                "pump",
+                "actuator"
+            ],
+            "Spoofing": [
+                "command",
+                "control",
+                "setpoint",
+                "status"
+            ],
+            "Denial of Service": [
+                "network",
+                "packet",
+                "delay",
+                "timeout"
+            ],
+            "Information Disclosure": [
+                "read",
+                "response",
+                "traffic"
+            ],
+            "Repudiation": [
+                "log",
+                "event",
+                "record"
+            ],
+            "Elevation of Privilege": [
+                "auth",
+                "permission",
+                "privilege"
+            ]
+        },
+        "split_mode": "auto_train_test",
+        "candidate_files": [
+            "/workspace/notebooks/WP31/Datasets/HAI/hai-20.07/test1.csv",
+            "/workspace/notebooks/WP31/Datasets/HAI/hai-20.07/test2.csv",
+            "/workspace/notebooks/WP31/Datasets/HAI/hai-20.07/train1.csv",
+            "/workspace/notebooks/WP31/Datasets/HAI/hai-20.07/train2.csv",
+            "/workspace/notebooks/WP31/Datasets/HAI/hai-21.03/test1.csv",
+            "/workspace/notebooks/WP31/Datasets/HAI/hai-21.03/test2.csv",
+            "/workspace/notebooks/WP31/Datasets/HAI/hai-21.03/test3.csv",
+            "/workspace/notebooks/WP31/Datasets/HAI/hai-21.03/test4.csv",
+            "/workspace/notebooks/WP31/Datasets/HAI/hai-21.03/test5.csv",
+            "/workspace/notebooks/WP31/Datasets/HAI/hai-21.03/train1.csv",
+            "/workspace/notebooks/WP31/Datasets/HAI/hai-21.03/train2.csv",
+            "/workspace/notebooks/WP31/Datasets/HAI/hai-21.03/train3.csv",
+            "/workspace/notebooks/WP31/Datasets/HAI/hai-22.04/test1.csv",
+            "/workspace/notebooks/WP31/Datasets/HAI/hai-22.04/test2.csv",
+            "/workspace/notebooks/WP31/Datasets/HAI/hai-22.04/test3.csv",
+            "/workspace/notebooks/WP31/Datasets/HAI/hai-22.04/test4.csv",
+            "/workspace/notebooks/WP31/Datasets/HAI/hai-22.04/train1.csv",
+            "/workspace/notebooks/WP31/Datasets/HAI/hai-22.04/train2.csv",
+            "/workspace/notebooks/WP31/Datasets/HAI/hai-22.04/train3.csv",
+            "/workspace/notebooks/WP31/Datasets/HAI/hai-22.04/train4.csv",
+            "/workspace/notebooks/WP31/Datasets/HAI/hai-22.04/train5.csv",
+            "/workspace/notebooks/WP31/Datasets/HAI/hai-22.04/train6.csv",
+            "/workspace/notebooks/WP31/Datasets/HAI/hai-23.05/hai-test1.csv",
+            "/workspace/notebooks/WP31/Datasets/HAI/hai-23.05/hai-test2.csv",
+            "/workspace/notebooks/WP31/Datasets/HAI/hai-23.05/hai-train1.csv",
+            "/workspace/notebooks/WP31/Datasets/HAI/hai-23.05/hai-train2.csv",
+            "/workspace/notebooks/WP31/Datasets/HAI/hai-23.05/hai-train3.csv",
+            "/workspace/notebooks/WP31/Datasets/HAI/hai-23.05/hai-train4.csv",
+            "/workspace/notebooks/WP31/Datasets/HAI/hai-23.05/label-test1.csv",
+            "/workspace/notebooks/WP31/Datasets/HAI/hai-23.05/label-test2.csv",
+            "/workspace/notebooks/WP31/Datasets/HAI/haiend-23.05/end-test1.csv",
+            "/workspace/notebooks/WP31/Datasets/HAI/haiend-23.05/end-test2.csv",
+            "/workspace/notebooks/WP31/Datasets/HAI/haiend-23.05/end-train1.csv",
+            "/workspace/notebooks/WP31/Datasets/HAI/haiend-23.05/end-train2.csv",
+            "/workspace/notebooks/WP31/Datasets/HAI/haiend-23.05/end-train3.csv",
+            "/workspace/notebooks/WP31/Datasets/HAI/haiend-23.05/end-train4.csv",
+            "/workspace/notebooks/WP31/Datasets/HAI/haiend-23.05/label-test1.csv",
+            "/workspace/notebooks/WP31/Datasets/HAI/haiend-23.05/label-test2.csv"
+        ]
+    },
+    "SWAT": {
+        "dataset_dir": "/workspace/notebooks/WP31/Datasets/SWAT",
+        "train_path": "/workspace/notebooks/WP31/Datasets/SWAT/normal.csv",
+        "test_path": "/workspace/notebooks/WP31/Datasets/SWAT/attack.csv",
+        "label_col": "Normal/Attack",
+        "time_col": "Timestamp",
+        "drop_cols": [],
+        "normal_label": 0,
+        "file_glob": [
+            "*.csv",
+            "*.CSV",
+            "*.xlsx",
+            "*.xls"
+        ],
+        "train_name_hints": [
+            "train",
+            "normal"
+        ],
+        "test_name_hints": [
+            "test",
+            "attack",
+            "validation"
+        ],
+        "stride_feature_keywords": {
+            "Tampering": [
+                "lit",
+                "fit",
+                "ait",
+                "pit",
+                "mv",
+                "p",
+                "pump",
+                "valve",
+                "tank",
+                "level",
+                "flow",
+                "pressure"
+            ],
+            "Spoofing": [
+                "command",
+                "control",
+                "setpoint",
+                "status"
+            ],
+            "Denial of Service": [
+                "network",
+                "packet",
+                "delay",
+                "timeout"
+            ],
+            "Information Disclosure": [
+                "read",
+                "response",
+                "traffic"
+            ],
+            "Repudiation": [
+                "log",
+                "event",
+                "record"
+            ],
+            "Elevation of Privilege": [
+                "auth",
+                "permission",
+                "privilege"
+            ]
+        },
+        "split_mode": "auto_train_test",
+        "candidate_files": [
+            "/workspace/notebooks/WP31/Datasets/SWAT/attack.csv",
+            "/workspace/notebooks/WP31/Datasets/SWAT/merged.csv",
+            "/workspace/notebooks/WP31/Datasets/SWAT/normal.csv"
+        ]
+    },
+    "WUSTL_IIOT": {
+        "dataset_dir": "/workspace/notebooks/WP31/Datasets/wustl_iiot",
+        "train_path": "/workspace/notebooks/WP31/Datasets/wustl_iiot/wustl_iiot_2021.csv",
+        "test_path": "/workspace/notebooks/WP31/Datasets/wustl_iiot/wustl_iiot_2021.csv",
+        "label_col": "Target",
+        "time_col": "StartTime",
+        "drop_cols": [
+            "StartTime",
+            "LastTime",
+            "SrcAddr",
+            "DstAddr",
+            "SrcIp",
+            "DstIp",
+            "SrcIP",
+            "DstIP",
+            "Sport",
+            "Dport",
+            "SrcPort",
+            "DstPort",
+            "Flow ID",
+            "FlowID"
+        ],
+        "normal_label": 0,
+        "file_glob": [
+            "*.csv",
+            "*.CSV",
+            "*.xlsx",
+            "*.xls"
+        ],
+        "train_name_hints": [
+            "train",
+            "normal"
+        ],
+        "test_name_hints": [
+            "test",
+            "attack",
+            "validation"
+        ],
+        "stride_feature_keywords": {
+            "Tampering": [
+                "sensor",
+                "modbus",
+                "value",
+                "register",
+                "function"
+            ],
+            "Spoofing": [
+                "src",
+                "dst",
+                "ip",
+                "addr",
+                "mac",
+                "port"
+            ],
+            "Denial of Service": [
+                "packet",
+                "bytes",
+                "duration",
+                "rate",
+                "ttl",
+                "tcp",
+                "udp",
+                "icmp",
+                "flow"
+            ],
+            "Information Disclosure": [
+                "payload",
+                "read",
+                "response",
+                "query"
+            ],
+            "Repudiation": [
+                "log",
+                "event",
+                "timestamp"
+            ],
+            "Elevation of Privilege": [
+                "auth",
+                "login",
+                "privilege",
+                "permission"
+            ]
+        },
+        "split_mode": "single_file_labeled_split",
+        "candidate_files": [
+            "/workspace/notebooks/WP31/Datasets/wustl_iiot/wustl_iiot_2021.csv"
+        ]
+    }
+}
