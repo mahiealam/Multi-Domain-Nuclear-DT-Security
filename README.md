@@ -25,3 +25,6 @@ This research evaluates the threat mapping pipeline across three multi-domain IC
    `git clone https://github.com/mahiealam/Multi-Domain-Nuclear-DT-Security.git`
 2. Install dependencies: Python 3.10+ and PyTorch 2.12.0.
 3. Run `Pipeline.ipynb` via Jupyter to execute the dual-scaler preprocessing and train the LSTM-Autoencoder.
+
+## Published Version
+the published version of this research can be found at: dx.doi.org/10.3389/fmech.2026.1926649
