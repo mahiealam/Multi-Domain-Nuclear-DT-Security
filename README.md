@@ -27,4 +27,4 @@ This research evaluates the threat mapping pipeline across three multi-domain IC
 3. Run `Pipeline.ipynb` via Jupyter to execute the dual-scaler preprocessing and train the LSTM-Autoencoder.
 
 ## Published Version
-The published version of this research can be found [![here](dx.doi.org/10.3389/fmech.2026.1926649)
+The published version of this research can be found here: (https://dx.doi.org/10.3389/fmech.2026.1926649)
